@@ -1,0 +1,13 @@
+
+
+public class DriveMethodOverloading {
+	public static void main(String []args) {
+		MethodOverloading mv=new MethodOverloading();
+		System.out.println(mv.details(10,20));
+		System.out.println(mv.details(10,20,30));
+		System.out.println(mv.details("anu"));
+		System.out.println(mv.details(10f,20f));
+		
+	}
+
+}
