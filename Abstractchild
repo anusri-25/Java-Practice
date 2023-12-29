@@ -1,0 +1,20 @@
+public   class  ChildAbstract extends Abstract {
+	public ChildAbstract(int a,int b) {
+		super(a,b);
+	}
+	
+	public int sum() {
+		return 8;
+	}
+	public String name() {
+		return "anu";
+	}
+	
+	public static void main(String[]args) {
+		ChildAbstract ca=new ChildAbstract (10,20);
+		System.out.println(ca.sum());
+		System.out.println(ca.name());
+		ca.details();
+	ca.getVariables();
+		
+	}
