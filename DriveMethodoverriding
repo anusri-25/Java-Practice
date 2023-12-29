@@ -1,0 +1,10 @@
+public class DriveOverriding {
+	public static void main(String[]args) {
+		ChildMethod cm=new ChildMethod();
+		System.out.println(cm.num(10, 20));
+		MethodOverriding mo=new MethodOverriding();
+		System.out.println(mo.num(10, 20));
+	
+
+}
+}
