@@ -1,0 +1,19 @@
+
+abstract class Abstract {
+	int a;
+	int b;
+	public abstract int sum();
+	public  void details() {
+		System.out.println("Ammu");
+	}
+	public Abstract(int a,int b) {
+		this.a=a;
+		this.b=b;
+		}
+	public void getVariables() {
+		System.out.println(a+b);
+	}
+	public abstract String name();
+	
+
+}
